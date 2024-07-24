@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-06T12:35:32 IST" name="Suite" finished-at="2024-07-06T12:36:11 IST" duration-ms="38537">
+    <groups>
+      <group name="toCheckDataProviderConcept">
+        <method signature="usingTestNGConcepts1.submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework1.TestCases.usingTestNGConcepts1@f6efaab]" name="submitOrder" class="SeleniumFramework1.TestCases.usingTestNGConcepts1"/>
+      </group> <!-- toCheckDataProviderConcept -->
+      <group name="errorHandeling">
+        <method signature="usingTestNGConcepts1.submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework1.TestCases.usingTestNGConcepts1@f6efaab]" name="submitOrder" class="SeleniumFramework1.TestCases.usingTestNGConcepts1"/>
+      </group> <!-- errorHandeling -->
+    </groups>
+    <test started-at="2024-07-06T12:35:32 IST" name="StandAloneTest1" finished-at="2024-07-06T12:36:11 IST" duration-ms="38537">
+      <class name="SeleniumFramework1.TestCases.usingTestNGConcepts1">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework1.TestCases.usingTestNGConcepts1@f6efaab]" started-at="2024-07-06T12:35:32 IST" name="launchApplication" finished-at="2024-07-06T12:35:37 IST" duration-ms="4879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework1.TestCases.usingTestNGConcepts1@f6efaab]" started-at="2024-07-06T12:35:37 IST" name="submitOrder" data-provider="getData" finished-at="2024-07-06T12:35:53 IST" duration-ms="15808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mhatresayali@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bruno@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFramework1.TestCases.usingTestNGConcepts1@f6efaab]" started-at="2024-07-06T12:35:53 IST" name="tearDown" finished-at="2024-07-06T12:35:53 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework1.TestCases.usingTestNGConcepts1@f6efaab]" started-at="2024-07-06T12:35:53 IST" name="launchApplication" finished-at="2024-07-06T12:35:56 IST" duration-ms="2896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework1.TestCases.usingTestNGConcepts1@f6efaab]" started-at="2024-07-06T12:35:56 IST" name="submitOrder" data-provider="getData" finished-at="2024-07-06T12:36:11 IST" duration-ms="14699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lanumhatre@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bruno@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFramework1.TestCases.usingTestNGConcepts1@f6efaab]" started-at="2024-07-06T12:36:11 IST" name="tearDown" finished-at="2024-07-06T12:36:11 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFramework1.TestCases.usingTestNGConcepts1 -->
+    </test> <!-- StandAloneTest1 -->
+  </suite> <!-- Suite -->
+</testng-results>
